@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manoj's Portfolio</title>
+    <!-- <link rel="stylesheet" href="/porf/style.css"> -->
+    <style>
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    background-color: rgb(47, 170, 227);
+    align-items: center;
+    list-style: none;
+    color: white;
+    /* font-style: italic; */
+
+}
+h5{
+    font-family: cursive;
+    margin-left: 50px;
+}
+body{
+    margin: 0;
+}
+.float-img{
+    float: right;
+    border: 10px;
+    border-radius: 1000px;
+    border-style: double;
+    border-color: violet;
+    
+    
+}
+.btn1{
+    margin-left: 100px;
+    /* padding-left: 10px; */
+    width: 100px;
+    height: 50px;
+    /* border: solid blueviolet  4px ; */
+    border-radius: 50px;
+    border-color: red;
+   /* justify-content: center; */
+   text-align: center;
+   background-color: blue;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-family: "Roboto",sans-serif;
+   color: white;
+}
+.btn2{
+    margin-left: 100px;
+    /* padding-left: 10px; */
+    width: 200px;
+    height: 50px;
+    /* border: solid blueviolet  4px ; */
+    border-radius: 50px;
+    border-color: red;
+   /* justify-content: center; */
+   text-align: center;
+   background-color: blue;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-family: "Roboto",sans-serif;
+   color: white;
+}
+
+
+.section h1{
+    margin-left: 50px;
+
+
+}
+.section h3{
+    margin-left: 50px;
+
+}
+ .slider{
+    width: 400px;
+    height: 500px;
+    border: 5px;
+    border-style: solid;
+    background: url(IMG_2685.jpg);
+    float: right;
+    animation-name:slide;
+    animation-duration: 20s;
+    animation-duration: infinite; 
+     margin-right: 50px;
+    border-radius: 300px;
+    border-color: turquoise ; 
+   
+    
+}  
+
+@keyframes slide {
+    25%{
+        background: url(IMG_2717.jpg);
+    }
+    50%{
+        background: url(IMG_3605.jpg);
+    }
+    75%{
+        background: url(IMG_2685.jpg);
+    }
+    100%{
+        background: url(IMG_2717.jpg);
+    }
+    
+} */
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class='navbar'>
+            <a href="/index.html"><li>Home</li></a>
+            <li>About</li>
+            <li>Portfolio</li>
+            <li>Certifications</li>
+           <a href="https://wa.me/917660033101"> <li>Contact</li></a>
+        </ul>
+        <h1 class="slider"></h1>
+        <!-- <img class="float-img"  src="/images/myimage.jpg" alt="" " width="500" height="500"/> -->
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="out">
+    <div class="section">
+    <h1>Hi, I'm <span style="color:darkorchid"> Manoj Guggilla</span></h1>
+    <h3>Front End Developer</h3>
+    <h5>Seasoned web developer with a strong focus on innovation and user-centric design.
+         Brings extensive experience in crafting responsive, mobile-friendly websites that
+         deliver exceptional user experiences. Specialized in optimizing website performance
+         and implementing the latest technologies</h5>
+    </div>    
+   </div>
+
+   <nav style="display: flex;">
+    <button class="btn1">Let's Talk</button>
+   <a href="Resume.html">
+    <button class="btn2">See Resume</button>
+   </a> 
+   </nav>
+</body>
+</html>
